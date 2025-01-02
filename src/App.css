@@ -4,11 +4,12 @@
           background:#e1eec3 ;
           color: #f05053;
           padding: 15px;
-          flex-wrap: wrap;}
+          flex-wrap: wrap;
+          width: 50%;
+          align-items: center;}
 
 .display{display: flex;
-           gap:150px;
-           width: fit-content;
+           gap:100px;
            flex-wrap: wrap;}
 
 .user{display: flex;

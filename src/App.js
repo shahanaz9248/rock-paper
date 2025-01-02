@@ -2,17 +2,12 @@ import React,{useState} from 'react'
 import './App.css';
 
 function App() {
-  const[userChoice,setUserChoice]=useState(<div className="user"><h2>You</h2>
+  const[userChoice,setUserChoice]=useState(<div className="user"><h2>Rock Paper Scissors</h2>
     <img src="/rock.png" width="100" alt="rock" onClick={()=>{check('rock')}}/>
     <img src="/paper.png" width="100" alt="paper" onClick={()=>{check('paper')}}/>
     <img src="/scissor.png" width="100" alt="scissor" onClick={()=>{check('scissor')}}/></div>);
 
-  const[computerChoice,setComputerChoice]=useState(<div className="computer">
-    <h2>Computer</h2>
-    <img src="/rock.png" width="100" alt="rock"/>
-    <img src="/paper.png"  width="100" alt="paper"/>
-    <img src="/scissor.png" width="100" alt="scissor"/>
-   </div>);
+  const[computerChoice,setComputerChoice]=useState();
 
    const[res,setRes]=useState('');
 
