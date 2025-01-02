@@ -1,11 +1,15 @@
+
 .container{display: flex;
            flex-direction: column;
           background:#e1eec3 ;
           color: #f05053;
-          padding: 15px;}
+          padding: 15px;
+          flex-wrap: wrap;}
 
 .display{display: flex;
-           gap:200px;}
+           gap:150px;
+           width: fit-content;
+           flex-wrap: wrap;}
 
 .user{display: flex;
       flex-direction: column;
