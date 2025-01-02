@@ -77,6 +77,8 @@ function App() {
           
        </div>
        <div className="result">
+           <br></br>
+           <br></br>
            <h2 style={{color:"#f05053"}}>{res}</h2>
            <button onClick={()=>window.location.reload()}>Restart Game</button>
        </div>      

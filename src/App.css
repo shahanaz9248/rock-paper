@@ -15,7 +15,7 @@
           justify-content: center;}
 
 .display{display: flex;
-           gap:100px;
+           gap:70px;
            flex-wrap: wrap;
            justify-content:center;
            align-items: center;
