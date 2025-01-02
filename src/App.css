@@ -1,0 +1,34 @@
+.container{display: flex;
+           flex-direction: column;
+          background:#e1eec3 ;
+          color: #f05053;
+          padding: 15px;}
+
+.display{display: flex;
+           gap:200px;}
+
+.user{display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap:10px;
+      cursor: pointer;}
+
+.computer{display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px;}
+
+.result{
+   text-align: center;
+}
+
+button{font-size: medium;
+       padding:5px 10px;
+       background:rgb(56, 126, 209);
+       border: none;
+       border-radius: 3px;
+       color: white;
+      }
+
+button:hover{cursor: pointer;
+             background: black;}
